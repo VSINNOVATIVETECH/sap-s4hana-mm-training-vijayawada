@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best SAP S/4 HANA MM Training in Vijayawada | VS Innovative Tech</title>
+<meta name="description" content="Join the Best SAP S/4 HANA MM Training Institute in Vijayawada. Expert trainers, real-time projects, certification support & placement assistance. Enroll Now!">
+<meta name="keywords" content="SAP S4 HANA MM Training Vijayawada, SAP MM Course Vijayawada, SAP Materials Management Training Vijayawada, SAP S4 HANA MM Training Andhra Pradesh">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0a1f44;
+    --navy-dark: #071530;
+    --yellow: #f5c518;
+    --yellow-light: #ffd84d;
+    --white: #ffffff;
+    --light-bg: #f4f6fb;
+    --text: #222;
+    --text-muted: #555;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Open Sans', sans-serif; color: var(--text); background: var(--white); }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--navy);
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky; top: 0; z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+  .logo-box {
+    display: flex; align-items: center; gap: 12px;
+  }
+  .logo-icon {
+    width: 46px; height: 46px; background: var(--yellow);
+    border-radius: 10px; display: flex; align-items: center; justify-content: center;
+    font-family: 'Montserrat', sans-serif; font-weight: 900;
+    font-size: 14px; color: var(--navy); letter-spacing: -1px;
+  }
+  .logo-text { color: var(--white); }
+  .logo-text strong { display: block; font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 800; letter-spacing: 1px; }
+  .logo-text span { font-size: 11px; color: var(--yellow); letter-spacing: 0.5px; }
+  .header-cta {
+    background: var(--yellow); color: var(--navy);
+    border: none; padding: 10px 22px; border-radius: 6px;
+    font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 13px;
+    cursor: pointer; text-decoration: none; letter-spacing: 0.5px;
+    transition: background 0.2s;
+  }
+  .header-cta:hover { background: var(--yellow-light); }
+
+  /* ── HERO ── */
+  .hero {
+    background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 60%, #0d2a5e 100%);
+    padding: 70px 24px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; top: -60px; right: -60px;
+    width: 320px; height: 320px;
+    background: var(--yellow); opacity: 0.07;
+    border-radius: 50%;
+  }
+  .hero::after {
+    content: '';
+    position: absolute; bottom: -80px; left: -80px;
+    width: 260px; height: 260px;
+    background: var(--yellow); opacity: 0.05;
+    border-radius: 50%;
+  }
+  .hero-badge {
+    display: inline-block;
+    background: var(--yellow); color: var(--navy);
+    font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 12px;
+    padding: 5px 16px; border-radius: 20px; letter-spacing: 1px;
+    margin-bottom: 20px; text-transform: uppercase;
+  }
+  .hero h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(26px, 5vw, 48px);
+    font-weight: 900; color: var(--white);
+    line-height: 1.2; margin-bottom: 10px;
+  }
+  .hero h1 span { color: var(--yellow); }
+  .hero-sub {
+    color: #b0bcd4; font-size: 15px; margin-bottom: 32px; max-width: 560px; margin-left: auto; margin-right: auto;
+  }
+  .hero-buttons { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  .btn-primary {
+    background: var(--yellow); color: var(--navy);
+    padding: 14px 30px; border-radius: 8px;
+    font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;
+    text-decoration: none; transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 16px rgba(245,197,24,0.35);
+  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(245,197,24,0.45); }
+  .btn-outline {
+    border: 2px solid rgba(255,255,255,0.3); color: var(--white);
+    padding: 14px 30px; border-radius: 8px;
+    font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 14px;
+    text-decoration: none; transition: border-color 0.2s, background 0.2s;
+  }
+  .btn-outline:hover { border-color: var(--yellow); background: rgba(245,197,24,0.08); }
+
+  /* ── STATS BAR ── */
+  .stats-bar {
+    background: var(--yellow);
+    display: flex; justify-content: center; flex-wrap: wrap;
+    gap: 0;
+  }
+  .stat-item {
+    padding: 18px 36px; text-align: center;
+    border-right: 1px solid rgba(10,31,68,0.15);
+  }
+  .stat-item:last-child { border-right: none; }
+  .stat-num {
+    font-family: 'Montserrat', sans-serif; font-weight: 900;
+    font-size: 26px; color: var(--navy); line-height: 1;
+  }
+  .stat-label { font-size: 11px; color: var(--navy); font-weight: 600; letter-spacing: 0.5px; margin-top: 4px; }
+
+  /* ── SECTION COMMON ── */
+  section { padding: 60px 24px; }
+  .section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(22px, 3.5vw, 34px); font-weight: 800;
+    color: var(--navy); text-align: center; margin-bottom: 8px;
+  }
+  .section-title span { color: var(--yellow); position: relative; }
+  .section-sub { text-align: center; color: var(--text-muted); font-size: 15px; margin-bottom: 40px; }
+  .divider {
+    width: 60px; height: 4px; background: var(--yellow);
+    border-radius: 2px; margin: 10px auto 36px;
+  }
+  .container { max-width: 960px; margin: 0 auto; }
+
+  /* ── ABOUT ── */
+  .about { background: var(--light-bg); }
+  .about-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 36px; align-items: center;
+  }
+  .about-text h3 {
+    font-family: 'Montserrat', sans-serif; font-weight: 700;
+    font-size: 20px; color: var(--navy); margin-bottom: 14px;
+  }
+  .about-text p { color: var(--text-muted); line-height: 1.8; font-size: 14px; margin-bottom: 14px; }
+  .about-highlights { list-style: none; }
+  .about-highlights li {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 0; font-size: 14px; color: var(--text);
+    border-bottom: 1px dashed #ddd;
+  }
+  .about-highlights li:last-child { border-bottom: none; }
+  .check { width: 22px; height: 22px; background: var(--yellow); border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; flex-shrink: 0; color: var(--navy); font-weight: 700; }
+  .about-card {
+    background: var(--navy); border-radius: 16px; padding: 36px 28px;
+    text-align: center; color: var(--white);
+  }
+  .about-card .big { font-family: 'Montserrat', sans-serif; font-size: 52px; font-weight: 900; color: var(--yellow); line-height: 1; }
+  .about-card p { font-size: 14px; color: #b0bcd4; margin-top: 10px; line-height: 1.6; }
+  .iso-tag {
+    display: inline-block; margin-top: 16px;
+    background: var(--yellow); color: var(--navy);
+    font-size: 11px; font-weight: 700; padding: 4px 12px; border-radius: 12px;
+    letter-spacing: 0.5px;
+  }
+
+  /* ── CURRICULUM ── */
+  .curriculum { background: var(--white); }
+  .modules-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px;
+  }
+  .module-card {
+    border: 2px solid #e8ecf4; border-radius: 12px; padding: 22px 20px;
+    transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    cursor: default;
+  }
+  .module-card:hover {
+    border-color: var(--yellow); transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(10,31,68,0.1);
+  }
+  .module-num {
+    font-family: 'Montserrat', sans-serif; font-size: 11px; font-weight: 700;
+    color: var(--yellow); background: var(--navy); display: inline-block;
+    padding: 2px 10px; border-radius: 10px; margin-bottom: 10px; letter-spacing: 1px;
+  }
+  .module-card h4 {
+    font-family: 'Montserrat', sans-serif; font-weight: 700;
+    font-size: 15px; color: var(--navy); margin-bottom: 8px;
+  }
+  .module-card ul { list-style: none; }
+  .module-card ul li { font-size: 13px; color: var(--text-muted); padding: 3px 0; padding-left: 12px; position: relative; }
+  .module-card ul li::before { content: '▸'; position: absolute; left: 0; color: var(--yellow); font-size: 11px; top: 4px; }
+
+  /* ── WHY CHOOSE US ── */
+  .why { background: var(--navy); }
+  .why .section-title { color: var(--white); }
+  .why .section-sub { color: #b0bcd4; }
+  .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+  .why-card {
+    background: rgba(255,255,255,0.05); border: 1px solid rgba(245,197,24,0.2);
+    border-radius: 12px; padding: 28px 20px; text-align: center;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .why-card:hover { background: rgba(245,197,24,0.08); border-color: var(--yellow); }
+  .why-icon { font-size: 36px; margin-bottom: 14px; }
+  .why-card h4 { font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 700; color: var(--yellow); margin-bottom: 8px; }
+  .why-card p { font-size: 13px; color: #8899bb; line-height: 1.6; }
+
+  /* ── CONTACT ── */
+  .contact { background: var(--light-bg); }
+  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; align-items: start; }
+  .contact-info h3 {
+    font-family: 'Montserrat', sans-serif; font-weight: 700;
+    font-size: 20px; color: var(--navy); margin-bottom: 20px;
+  }
+  .contact-item {
+    display: flex; gap: 14px; align-items: flex-start;
+    margin-bottom: 18px;
+  }
+  .contact-icon {
+    width: 40px; height: 40px; background: var(--navy); border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px; flex-shrink: 0;
+  }
+  .contact-item p { font-size: 13px; color: var(--text-muted); }
+  .contact-item strong { font-size: 14px; color: var(--navy); display: block; margin-bottom: 2px; }
+  .contact-item a { color: var(--navy); text-decoration: none; }
+  .contact-item a:hover { color: #0056b3; }
+
+  .enquiry-box {
+    background: var(--navy); border-radius: 16px; padding: 32px 28px;
+  }
+  .enquiry-box h3 {
+    font-family: 'Montserrat', sans-serif; font-weight: 700;
+    font-size: 18px; color: var(--yellow); margin-bottom: 20px; text-align: center;
+  }
+  .form-group { margin-bottom: 14px; }
+  .form-group input, .form-group select {
+    width: 100%; padding: 11px 14px;
+    background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 8px; color: var(--white); font-size: 14px;
+    outline: none; transition: border-color 0.2s;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .form-group input::placeholder { color: #8899bb; }
+  .form-group input:focus, .form-group select:focus { border-color: var(--yellow); }
+  .form-group select option { background: var(--navy); }
+  .submit-btn {
+    width: 100%; background: var(--yellow); color: var(--navy);
+    border: none; padding: 13px; border-radius: 8px;
+    font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;
+    cursor: pointer; transition: background 0.2s; margin-top: 4px;
+    letter-spacing: 0.5px;
+  }
+  .submit-btn:hover { background: var(--yellow-light); }
+
+  /* ── WHATSAPP FLOAT ── */
+  .whatsapp-float {
+    position: fixed; bottom: 24px; right: 24px; z-index: 200;
+    background: #25d366; color: white;
+    width: 56px; height: 56px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 28px; text-decoration: none;
+    box-shadow: 0 4px 16px rgba(37,211,102,0.5);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%,100% { box-shadow: 0 4px 16px rgba(37,211,102,0.5); }
+    50% { box-shadow: 0 4px 28px rgba(37,211,102,0.8); }
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--navy-dark);
+    padding: 24px;
+    text-align: center;
+  }
+  footer p { color: #8899bb; font-size: 13px; }
+  footer a { color: var(--yellow); text-decoration: none; }
+  .footer-yellow { width: 100%; height: 5px; background: var(--yellow); }
+
+  /* ── RESPONSIVE ── */
+  @media(max-width: 640px) {
+    .about-grid, .contact-grid { grid-template-columns: 1fr; }
+    .stat-item { padding: 14px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo-box">
+    <div class="logo-icon">VSIT</div>
+    <div class="logo-text">
+      <strong>VS INNOVATIVE TECH</strong>
+      <span>Software Training & IT Services | ISO 9001:2015</span>
+    </div>
+  </div>
+  <a href="https://wa.me/919742511156?text=Hi%2C%20I%20want%20to%20know%20about%20SAP%20S4%20HANA%20MM%20Training" class="header-cta" target="_blank">📲 Enquire Now</a>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">🏆 #1 SAP Training Institute — Vijayawada</div>
+  <h1>Best <span>SAP S/4 HANA MM</span><br>Training in Vijayawada</h1>
+  <p class="hero-sub">Vijayawada's Most Trusted SAP S/4 HANA MM Training Institute</p>
+  <div class="hero-buttons">
+    <a href="#contact" class="btn-primary">🎓 Enroll Now</a>
+    <a href="#curriculum" class="btn-outline">📋 View Curriculum</a>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stat-item"><div class="stat-num">350+</div><div class="stat-label">Students Trained</div></div>
+  <div class="stat-item"><div class="stat-num">10+</div><div class="stat-label">Years Experience</div></div>
+  <div class="stat-item"><div class="stat-num">ISO</div><div class="stat-label">9001:2015 Certified</div></div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+    <h2 class="section-title">About <span>VS Innovative Tech</span></h2>
+    <div class="divider"></div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h3>Vijayawada's Most Trusted SAP S/4 HANA MM Training Institute</h3>
+        <p>VS Innovative Tech (VSIT) is an ISO 9001:2015 certified Software Training & IT Services company based in Vijayawada, Andhra Pradesh. We specialize in delivering world-class SAP S/4 HANA MM training with a focus on real-time scenarios and industry-ready skills.</p>
+        <ul class="about-highlights">
+          <li><span class="check">✓</span> Certified & experienced SAP MM consultants as trainers</li>
+          <li><span class="check">✓</span> Real-time project-based training methodology</li>
+          <li><span class="check">✓</span> Small batch sizes for personalized attention</li>
+          <li><span class="check">✓</span> SAP certification exam guidance & support</li>
+          <li><span class="check">✓</span> Resume building & interview preparation</li>
+          <li><span class="check">✓</span> Online & offline batches available</li>
+        </ul>
+      </div>
+      <div class="about-card">
+        <div class="big">VSIT</div>
+        <p>Empowering SAP professionals in Vijayawada since our inception with quality training and career support.</p>
+        <span class="iso-tag">✅ ISO 9001:2015 Certified</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CURRICULUM -->
+<section class="curriculum" id="curriculum">
+  <div class="container">
+    <h2 class="section-title">SAP S/4 HANA <span>MM Curriculum</span></h2>
+    <p class="section-sub">Comprehensive modules designed by industry experts</p>
+    <div class="divider"></div>
+    <div class="modules-grid">
+      <div class="module-card">
+        <span class="module-num">MODULE 01</span>
+        <h4>SAP MM Fundamentals</h4>
+        <ul>
+          <li>Introduction to SAP S/4 HANA</li>
+          <li>SAP Navigation & Architecture</li>
+          <li>Enterprise Structure in MM</li>
+          <li>Organizational Levels Setup</li>
+        </ul>
+      </div>
+      <div class="module-card">
+        <span class="module-num">MODULE 02</span>
+        <h4>Master Data Management</h4>
+        <ul>
+          <li>Material Master Data</li>
+          <li>Vendor Master Data</li>
+          <li>Purchase Info Records</li>
+          <li>Source List & Quota Arrangement</li>
+        </ul>
+      </div>
+      <div class="module-card">
+        <span class="module-num">MODULE 03</span>
+        <h4>Procurement Process</h4>
+        <ul>
+          <li>Purchase Requisition</li>
+          <li>Request for Quotation (RFQ)</li>
+          <li>Purchase Orders & Contracts</li>
+          <li>Scheduling Agreements</li>
+        </ul>
+      </div>
+      <div class="module-card">
+        <span class="module-num">MODULE 04</span>
+        <h4>Inventory Management</h4>
+        <ul>
+          <li>Goods Receipt & Issue</li>
+          <li>Stock Transfer & Transfer Posting</li>
+          <li>Physical Inventory</li>
+          <li>Batch & Serial Number Management</li>
+        </ul>
+      </div>
+      <div class="module-card">
+        <span class="module-num">MODULE 05</span>
+        <h4>Invoice Verification & Valuation</h4>
+        <ul>
+          <li>Logistics Invoice Verification</li>
+          <li>Material Valuation & Price Control</li>
+          <li>Split Valuation</li>
+          <li>Account Determination</li>
+        </ul>
+      </div>
+      <div class="module-card">
+        <span class="module-num">MODULE 06</span>
+        <h4>Integration & Real-Time Projects</h4>
+        <ul>
+          <li>MM-FI & MM-SD Integration</li>
+          <li>S/4 HANA MM Specific Features</li>
+          <li>End-to-End Project</li>
+          <li>Certification Preparation</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="why" id="why">
+  <div class="container">
+    <h2 class="section-title">Why Choose <span>VSIT?</span></h2>
+    <p class="section-sub">What makes us the best SAP training institute in Vijayawada</p>
+    <div class="divider" style="background:var(--yellow);"></div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">👨‍🏫</div>
+        <h4>Expert Trainers</h4>
+        <p>Learn from SAP-certified consultants with 10+ years of real project experience</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">💻</div>
+        <h4>Live System Access</h4>
+        <p>Hands-on SAP S/4 HANA system access throughout the training period</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📄</div>
+        <h4>Study Materials</h4>
+        <p>Comprehensive study materials, recorded sessions & practice exercises included</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🏆</div>
+        <h4>Certification Support</h4>
+        <p>Full guidance for SAP S/4 HANA MM certification exam preparation</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🕐</div>
+        <h4>Flexible Batches</h4>
+        <p>Weekday, weekend, fast-track & online batches to suit your schedule</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2 class="section-title">Get In <span>Touch</span></h2>
+    <p class="section-sub">Enroll today or speak to our counsellor for free guidance</p>
+    <div class="divider"></div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>VS Innovative Tech — Vijayawada</h3>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <strong>Location</strong>
+            <p>Vijayawada, Andhra Pradesh, India</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🌐</div>
+          <div>
+            <strong>Website</strong>
+            <p><a href="https://www.vsinnovativetech.info" target="_blank">www.vsinnovativetech.info</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <strong>Phone</strong>
+            <p><a href="tel:+919742511156">+91 97425 11156</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div>
+            <strong>Email</strong>
+            <p><a href="mailto:narendrag@vsinnovativetech.info">narendrag@vsinnovativetech.info</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📲</div>
+          <div>
+            <strong>WhatsApp Enquiry</strong>
+            <p><a href="https://wa.me/919742511156?text=Hi%2C%20I%20want%20to%20know%20about%20SAP%20MM%20Training" target="_blank">Click to Chat on WhatsApp</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="enquiry-box">
+        <h3>📋 Free Counselling Request</h3>
+        <div class="form-group">
+          <input type="text" placeholder="Your Full Name" />
+        </div>
+        <div class="form-group">
+          <input type="tel" placeholder="Mobile Number" />
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="form-group">
+          <select>
+            <option value="" disabled selected>Select Course Interest</option>
+            <option>SAP S/4 HANA MM</option>
+            <option>SAP S/4 HANA FICO</option>
+            <option>SAP SD</option>
+            <option>SAP HR/HCM</option>
+            <option>Other SAP Module</option>
+          </select>
+        </div>
+        <button class="submit-btn" onclick="alert('Thank you! Our counsellor will contact you shortly.')">🎓 Request Free Counselling</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<div class="footer-yellow"></div>
+<footer>
+  <p>© 2025 <strong style="color:var(--yellow)">VS Innovative Tech (VSIT)</strong> — Best SAP S/4 HANA MM Training in Vijayawada</p>
+  <p style="margin-top:6px;">ISO 9001:2015 Certified | <a href="https://www.vsinnovativetech.info" target="_blank">www.vsinnovativetech.info</a></p>
+</footer>
