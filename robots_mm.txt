@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vsinnovativetech.github.io/sap-s4hana-mm-training-vijayawada/sitemap.xml
